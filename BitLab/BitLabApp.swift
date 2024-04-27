@@ -1,32 +1,46 @@
-//
-//  BitLabApp.swift
-//  BitLab
-//
-//  Created by 李皓钧 on 19/4/2024.
-//
-
+import SlideOverCard
 import SwiftUI
-import SwiftData
 
 @main
 struct BitLabApp: App {
-    var sharedModelContainer: ModelContainer = {
-        let schema = Schema([
-            Item.self,
-        ])
-        let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
+  @AppStorage("FirstStart") var alertShouldBeShown = true
 
-        do {
-            return try ModelContainer(for: schema, configurations: [modelConfiguration])
-        } catch {
-            fatalError("Could not create ModelContainer: \(error)")
-        }
-    }()
+  init() {
+    #if DEBUG
+      if let bundleID = Bundle.main.bundleIdentifier {
+        UserDefaults.standard.removePersistentDomain(forName: bundleID)
+      }
+    #endif
+  }
 
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
+  var body: some Scene {
+    WindowGroup {
+      TabView {
+        ToolExploreView()
+          .tabItem {
+            Label("Tools", systemImage: "wrench.and.screwdriver.fill")
+          }
+        LearnExploreView()
+          .tabItem {
+            Label("Learn", systemImage: "graduationcap")
+          }
+      }
+      .slideOverCard(
+        isPresented: $alertShouldBeShown,
+        onDismiss: {
+          alertShouldBeShown = false
         }
-        .modelContainer(sharedModelContainer)
+      ) {
+        VStack(spacing: 22) {
+          Text("Welcome to BitLab")
+            .font(.title).bold()
+          Text("Discover a suite of convenient tools designed for working with computer number representations here. Plus, it is a great place for learning how computers manipulate the numbers.")
+          Text("Author's website: [https://rewired.moe](https://rewired.moe)")
+          Button("Continue", action: {
+            alertShouldBeShown = false
+          }).buttonStyle(SOCEmptyButton())
+        }
+      }
     }
+  }
 }

@@ -8,13 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		8911A90D2BD208A000FBBD1A /* BitLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A90C2BD208A000FBBD1A /* BitLabApp.swift */; };
-		8911A90F2BD208A000FBBD1A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A90E2BD208A000FBBD1A /* ContentView.swift */; };
-		8911A9112BD208A000FBBD1A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9102BD208A000FBBD1A /* Item.swift */; };
 		8911A9132BD208A100FBBD1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8911A9122BD208A100FBBD1A /* Assets.xcassets */; };
 		8911A9172BD208A100FBBD1A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8911A9162BD208A100FBBD1A /* Preview Assets.xcassets */; };
 		8911A9212BD208A100FBBD1A /* BitLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9202BD208A100FBBD1A /* BitLabTests.swift */; };
 		8911A92B2BD208A100FBBD1A /* BitLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A92A2BD208A100FBBD1A /* BitLabUITests.swift */; };
 		8911A92D2BD208A100FBBD1A /* BitLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A92C2BD208A100FBBD1A /* BitLabUITestsLaunchTests.swift */; };
+		8911A9512BD20A7B00FBBD1A /* Arrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9392BD20A7A00FBBD1A /* Arrays.swift */; };
+		8911A9522BD20A7B00FBBD1A /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A93A2BD20A7A00FBBD1A /* Numbers.swift */; };
+		8911A9532BD20A7B00FBBD1A /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A93B2BD20A7A00FBBD1A /* Strings.swift */; };
+		8911A9542BD20A7B00FBBD1A /* UIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A93C2BD20A7A00FBBD1A /* UIs.swift */; };
+		8911A9552BD20A7B00FBBD1A /* LearnExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A93E2BD20A7A00FBBD1A /* LearnExploreView.swift */; };
+		8911A9562BD20A7B00FBBD1A /* ToolExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A93F2BD20A7A00FBBD1A /* ToolExploreView.swift */; };
+		8911A9572BD20A7B00FBBD1A /* LearnIntegerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9412BD20A7A00FBBD1A /* LearnIntegerView.swift */; };
+		8911A9582BD20A7B00FBBD1A /* LearnRadixView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9422BD20A7A00FBBD1A /* LearnRadixView.swift */; };
+		8911A9592BD20A7B00FBBD1A /* FloatToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9442BD20A7A00FBBD1A /* FloatToolView.swift */; };
+		8911A95A2BD20A7B00FBBD1A /* IntegerToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9452BD20A7A00FBBD1A /* IntegerToolView.swift */; };
+		8911A95B2BD20A7B00FBBD1A /* SegmentorToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9462BD20A7A00FBBD1A /* SegmentorToolView.swift */; };
+		8911A95C2BD20A7B00FBBD1A /* ToolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A9492BD20A7B00FBBD1A /* ToolView.swift */; };
+		8911A95D2BD20A7B00FBBD1A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A94B2BD20A7B00FBBD1A /* CardView.swift */; };
+		8911A95E2BD20A7B00FBBD1A /* H2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A94C2BD20A7B00FBBD1A /* H2.swift */; };
+		8911A95F2BD20A7B00FBBD1A /* NumberField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A94D2BD20A7B00FBBD1A /* NumberField.swift */; };
+		8911A9602BD20A7B00FBBD1A /* RadixTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A94E2BD20A7B00FBBD1A /* RadixTextField.swift */; };
+		8911A9612BD20A7B00FBBD1A /* SectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8911A94F2BD20A7B00FBBD1A /* SectionView.swift */; };
+		8911A9642BD20AF000FBBD1A /* SlideOverCard in Frameworks */ = {isa = PBXBuildFile; productRef = 8911A9632BD20AF000FBBD1A /* SlideOverCard */; };
+		8911A9672BD20B1200FBBD1A /* LaTeXSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8911A9662BD20B1200FBBD1A /* LaTeXSwiftUI */; };
+		8911A96A2BD20B2B00FBBD1A /* BigInt in Frameworks */ = {isa = PBXBuildFile; productRef = 8911A9692BD20B2B00FBBD1A /* BigInt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +55,6 @@
 /* Begin PBXFileReference section */
 		8911A9092BD208A000FBBD1A /* BitLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8911A90C2BD208A000FBBD1A /* BitLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitLabApp.swift; sourceTree = "<group>"; };
-		8911A90E2BD208A000FBBD1A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8911A9102BD208A000FBBD1A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		8911A9122BD208A100FBBD1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8911A9142BD208A100FBBD1A /* BitLab.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BitLab.entitlements; sourceTree = "<group>"; };
 		8911A9162BD208A100FBBD1A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +63,23 @@
 		8911A9262BD208A100FBBD1A /* BitLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8911A92A2BD208A100FBBD1A /* BitLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitLabUITests.swift; sourceTree = "<group>"; };
 		8911A92C2BD208A100FBBD1A /* BitLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8911A9392BD20A7A00FBBD1A /* Arrays.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Arrays.swift; sourceTree = "<group>"; };
+		8911A93A2BD20A7A00FBBD1A /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		8911A93B2BD20A7A00FBBD1A /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		8911A93C2BD20A7A00FBBD1A /* UIs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIs.swift; sourceTree = "<group>"; };
+		8911A93E2BD20A7A00FBBD1A /* LearnExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnExploreView.swift; sourceTree = "<group>"; };
+		8911A93F2BD20A7A00FBBD1A /* ToolExploreView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolExploreView.swift; sourceTree = "<group>"; };
+		8911A9412BD20A7A00FBBD1A /* LearnIntegerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnIntegerView.swift; sourceTree = "<group>"; };
+		8911A9422BD20A7A00FBBD1A /* LearnRadixView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnRadixView.swift; sourceTree = "<group>"; };
+		8911A9442BD20A7A00FBBD1A /* FloatToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatToolView.swift; sourceTree = "<group>"; };
+		8911A9452BD20A7A00FBBD1A /* IntegerToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegerToolView.swift; sourceTree = "<group>"; };
+		8911A9462BD20A7A00FBBD1A /* SegmentorToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentorToolView.swift; sourceTree = "<group>"; };
+		8911A9492BD20A7B00FBBD1A /* ToolView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolView.swift; sourceTree = "<group>"; };
+		8911A94B2BD20A7B00FBBD1A /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		8911A94C2BD20A7B00FBBD1A /* H2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = H2.swift; sourceTree = "<group>"; };
+		8911A94D2BD20A7B00FBBD1A /* NumberField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberField.swift; sourceTree = "<group>"; };
+		8911A94E2BD20A7B00FBBD1A /* RadixTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadixTextField.swift; sourceTree = "<group>"; };
+		8911A94F2BD20A7B00FBBD1A /* SectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8911A96A2BD20B2B00FBBD1A /* BigInt in Frameworks */,
+				8911A9642BD20AF000FBBD1A /* SlideOverCard in Frameworks */,
+				8911A9672BD20B1200FBBD1A /* LaTeXSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,9 +133,11 @@
 		8911A90B2BD208A000FBBD1A /* BitLab */ = {
 			isa = PBXGroup;
 			children = (
+				8911A9502BD20A7B00FBBD1A /* Components */,
+				8911A9482BD20A7A00FBBD1A /* Pages */,
+				8911A94A2BD20A7B00FBBD1A /* Templates */,
+				8911A93D2BD20A7A00FBBD1A /* Utils */,
 				8911A90C2BD208A000FBBD1A /* BitLabApp.swift */,
-				8911A90E2BD208A000FBBD1A /* ContentView.swift */,
-				8911A9102BD208A000FBBD1A /* Item.swift */,
 				8911A9122BD208A100FBBD1A /* Assets.xcassets */,
 				8911A9142BD208A100FBBD1A /* BitLab.entitlements */,
 				8911A9152BD208A100FBBD1A /* Preview Content */,
@@ -132,6 +170,75 @@
 			path = BitLabUITests;
 			sourceTree = "<group>";
 		};
+		8911A93D2BD20A7A00FBBD1A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8911A9392BD20A7A00FBBD1A /* Arrays.swift */,
+				8911A93A2BD20A7A00FBBD1A /* Numbers.swift */,
+				8911A93B2BD20A7A00FBBD1A /* Strings.swift */,
+				8911A93C2BD20A7A00FBBD1A /* UIs.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8911A9402BD20A7A00FBBD1A /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				8911A93E2BD20A7A00FBBD1A /* LearnExploreView.swift */,
+				8911A93F2BD20A7A00FBBD1A /* ToolExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		8911A9432BD20A7A00FBBD1A /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				8911A9412BD20A7A00FBBD1A /* LearnIntegerView.swift */,
+				8911A9422BD20A7A00FBBD1A /* LearnRadixView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		8911A9472BD20A7A00FBBD1A /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8911A9442BD20A7A00FBBD1A /* FloatToolView.swift */,
+				8911A9452BD20A7A00FBBD1A /* IntegerToolView.swift */,
+				8911A9462BD20A7A00FBBD1A /* SegmentorToolView.swift */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		8911A9482BD20A7A00FBBD1A /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				8911A9402BD20A7A00FBBD1A /* Explore */,
+				8911A9432BD20A7A00FBBD1A /* Learn */,
+				8911A9472BD20A7A00FBBD1A /* Tool */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		8911A94A2BD20A7B00FBBD1A /* Templates */ = {
+			isa = PBXGroup;
+			children = (
+				8911A9492BD20A7B00FBBD1A /* ToolView.swift */,
+			);
+			path = Templates;
+			sourceTree = "<group>";
+		};
+		8911A9502BD20A7B00FBBD1A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				8911A94B2BD20A7B00FBBD1A /* CardView.swift */,
+				8911A94C2BD20A7B00FBBD1A /* H2.swift */,
+				8911A94D2BD20A7B00FBBD1A /* NumberField.swift */,
+				8911A94E2BD20A7B00FBBD1A /* RadixTextField.swift */,
+				8911A94F2BD20A7B00FBBD1A /* SectionView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -148,6 +255,11 @@
 			dependencies = (
 			);
 			name = BitLab;
+			packageProductDependencies = (
+				8911A9632BD20AF000FBBD1A /* SlideOverCard */,
+				8911A9662BD20B1200FBBD1A /* LaTeXSwiftUI */,
+				8911A9692BD20B2B00FBBD1A /* BigInt */,
+			);
 			productName = BitLab;
 			productReference = 8911A9092BD208A000FBBD1A /* BitLab.app */;
 			productType = "com.apple.product-type.application";
@@ -220,6 +332,11 @@
 				Base,
 			);
 			mainGroup = 8911A9002BD208A000FBBD1A;
+			packageReferences = (
+				8911A9622BD20AF000FBBD1A /* XCRemoteSwiftPackageReference "SlideOverCard" */,
+				8911A9652BD20B1200FBBD1A /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */,
+				8911A9682BD20B2B00FBBD1A /* XCRemoteSwiftPackageReference "BigInt" */,
+			);
 			productRefGroup = 8911A90A2BD208A000FBBD1A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -262,9 +379,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8911A90F2BD208A000FBBD1A /* ContentView.swift in Sources */,
-				8911A9112BD208A000FBBD1A /* Item.swift in Sources */,
+				8911A95D2BD20A7B00FBBD1A /* CardView.swift in Sources */,
+				8911A9602BD20A7B00FBBD1A /* RadixTextField.swift in Sources */,
+				8911A9612BD20A7B00FBBD1A /* SectionView.swift in Sources */,
+				8911A95C2BD20A7B00FBBD1A /* ToolView.swift in Sources */,
+				8911A9542BD20A7B00FBBD1A /* UIs.swift in Sources */,
+				8911A9552BD20A7B00FBBD1A /* LearnExploreView.swift in Sources */,
 				8911A90D2BD208A000FBBD1A /* BitLabApp.swift in Sources */,
+				8911A95B2BD20A7B00FBBD1A /* SegmentorToolView.swift in Sources */,
+				8911A95A2BD20A7B00FBBD1A /* IntegerToolView.swift in Sources */,
+				8911A9592BD20A7B00FBBD1A /* FloatToolView.swift in Sources */,
+				8911A95E2BD20A7B00FBBD1A /* H2.swift in Sources */,
+				8911A95F2BD20A7B00FBBD1A /* NumberField.swift in Sources */,
+				8911A9512BD20A7B00FBBD1A /* Arrays.swift in Sources */,
+				8911A9572BD20A7B00FBBD1A /* LearnIntegerView.swift in Sources */,
+				8911A9532BD20A7B00FBBD1A /* Strings.swift in Sources */,
+				8911A9522BD20A7B00FBBD1A /* Numbers.swift in Sources */,
+				8911A9582BD20A7B00FBBD1A /* LearnRadixView.swift in Sources */,
+				8911A9562BD20A7B00FBBD1A /* ToolExploreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +485,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -408,9 +542,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = "$(RECOMMENDED_MACOSX_DEPLOYMENT_TARGET)";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
 			name = Release;
@@ -428,6 +565,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BitLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -438,7 +577,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -446,7 +585,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = moe.rewired.BitLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -466,6 +607,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = BitLab;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -476,7 +619,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -484,7 +627,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = moe.rewired.BitLab;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -621,6 +766,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8911A9622BD20AF000FBBD1A /* XCRemoteSwiftPackageReference "SlideOverCard" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/joogps/SlideOverCard";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.1;
+			};
+		};
+		8911A9652BD20B1200FBBD1A /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/colinc86/LaTeXSwiftUI";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		8911A9682BD20B2B00FBBD1A /* XCRemoteSwiftPackageReference "BigInt" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/attaswift/BigInt.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8911A9632BD20AF000FBBD1A /* SlideOverCard */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8911A9622BD20AF000FBBD1A /* XCRemoteSwiftPackageReference "SlideOverCard" */;
+			productName = SlideOverCard;
+		};
+		8911A9662BD20B1200FBBD1A /* LaTeXSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8911A9652BD20B1200FBBD1A /* XCRemoteSwiftPackageReference "LaTeXSwiftUI" */;
+			productName = LaTeXSwiftUI;
+		};
+		8911A9692BD20B2B00FBBD1A /* BigInt */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8911A9682BD20B2B00FBBD1A /* XCRemoteSwiftPackageReference "BigInt" */;
+			productName = BigInt;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8911A9012BD208A000FBBD1A /* Project object */;
 }
